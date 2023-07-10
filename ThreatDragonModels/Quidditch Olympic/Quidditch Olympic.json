@@ -45,8 +45,8 @@
           },
           {
             "position": {
-              "x": 640,
-              "y": 520
+              "x": 630,
+              "y": 660
             },
             "size": {
               "width": 390,
@@ -58,8 +58,8 @@
                 "text": "Results Boundary"
               }
             },
-            "id": "24b20880-838d-4375-a0ca-22600126c42a",
             "zIndex": -1,
+            "id": "24b20880-838d-4375-a0ca-22600126c42a",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "Results Boundary",
@@ -969,7 +969,7 @@
           {
             "position": {
               "x": 760,
-              "y": 560
+              "y": 700
             },
             "size": {
               "width": 130,
