@@ -45,6 +45,31 @@
           },
           {
             "position": {
+              "x": 640,
+              "y": 520
+            },
+            "size": {
+              "width": 390,
+              "height": 182.8125
+            },
+            "shape": "trust-boundary-box",
+            "attrs": {
+              "headerText": {
+                "text": "Results Boundary"
+              }
+            },
+            "id": "24b20880-838d-4375-a0ca-22600126c42a",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "Results Boundary",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            }
+          },
+          {
+            "position": {
               "x": 110,
               "y": 100
             },
@@ -700,8 +725,8 @@
           },
           {
             "position": {
-              "x": 710,
-              "y": 450
+              "x": 760,
+              "y": 560
             },
             "size": {
               "width": 130,
@@ -719,8 +744,8 @@
             },
             "visible": true,
             "shape": "process",
-            "id": "6808bd8c-208a-44d1-be63-c5cde261c143",
             "zIndex": 11,
+            "id": "6808bd8c-208a-44d1-be63-c5cde261c143",
             "data": {
               "type": "tm.Process",
               "name": "Official\nResults",
@@ -833,8 +858,8 @@
             },
             "visible": true,
             "shape": "actor",
-            "id": "5ffe0a3d-35a4-4331-ae9e-c2d0a075c483",
             "zIndex": 14,
+            "id": "5ffe0a3d-35a4-4331-ae9e-c2d0a075c483",
             "data": {
               "type": "tm.Actor",
               "name": "Merchant",
@@ -867,8 +892,8 @@
             },
             "visible": true,
             "shape": "actor",
-            "id": "b91f0799-d382-433f-a232-8c1dcb171f4e",
             "zIndex": 15,
+            "id": "b91f0799-d382-433f-a232-8c1dcb171f4e",
             "data": {
               "type": "tm.Actor",
               "name": "VIP",
