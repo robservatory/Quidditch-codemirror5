@@ -909,6 +909,9 @@
               "threats": []
             },
             "id": "5560b5e8-fbe4-44ca-b54a-8faf328d346e",
+            "labels": [
+              "Sell back merch"
+            ],
             "source": {
               "cell": "177d7058-f94d-4aa4-bf65-1733ff9dcd28"
             },
@@ -924,9 +927,6 @@
                 "x": 1460,
                 "y": 380
               }
-            ],
-            "labels": [
-              "Sell back merch"
             ]
           },
           {
@@ -958,6 +958,9 @@
               "threats": []
             },
             "id": "c75c9ae6-9f79-43ca-9dc2-a2e71c41319c",
+            "labels": [
+              "Sample Wager"
+            ],
             "source": {
               "cell": "c7d8b2a5-1c39-47c6-84b5-23ab4a0795c6"
             },
@@ -973,9 +976,6 @@
                 "x": 1400,
                 "y": 370
               }
-            ],
-            "labels": [
-              "Sample Wager"
             ]
           },
           {
@@ -1007,6 +1007,9 @@
               "threats": []
             },
             "id": "ba654c3b-6f78-4643-9637-9987a22bbeaa",
+            "labels": [
+              "Payment Transactions "
+            ],
             "source": {
               "cell": "68a19d70-075c-4461-98f8-e2d739d4d07e"
             },
@@ -1022,9 +1025,48 @@
                 "x": 1460,
                 "y": 190
               }
-            ],
-            "labels": [
-              "Payment Transactions "
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "targetMarker": {
+                  "name": "classic"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "0237e42e-1bcf-4ab7-8d5f-eb8e7b44dcf4",
+            "source": {
+              "cell": "2460922f-13ac-430d-a741-a3374b278b84"
+            },
+            "target": {
+              "cell": "68a19d70-075c-4461-98f8-e2d739d4d07e"
+            },
+            "vertices": [
+              {
+                "x": 1015,
+                "y": -40
+              }
             ]
           },
           {
