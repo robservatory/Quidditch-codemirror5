@@ -261,8 +261,8 @@
           },
           {
             "position": {
-              "x": 305,
-              "y": 492
+              "x": 1145,
+              "y": 360
             },
             "size": {
               "width": 120,
@@ -301,8 +301,8 @@
           },
           {
             "position": {
-              "x": 150,
-              "y": 410
+              "x": 1081.25,
+              "y": 240
             },
             "size": {
               "width": 120,
@@ -734,8 +734,8 @@
           },
           {
             "position": {
-              "x": 981,
-              "y": 390
+              "x": 222.5,
+              "y": 485
             },
             "size": {
               "width": 120,
@@ -774,14 +774,17 @@
           },
           {
             "position": {
-              "x": 981,
-              "y": 492
+              "x": 410,
+              "y": 485
             },
             "size": {
               "width": 120,
               "height": 60
             },
             "attrs": {
+              "text": {
+                "text": "History"
+              },
               "topLine": {
                 "strokeWidth": 1,
                 "strokeDasharray": null
@@ -797,8 +800,8 @@
             "zIndex": 13,
             "data": {
               "type": "tm.Store",
-              "name": "Store",
-              "description": "",
+              "name": "History",
+              "description": "Past results, how games evolved etc.",
               "outOfScope": false,
               "reasonOutOfScope": "",
               "isALog": false,
