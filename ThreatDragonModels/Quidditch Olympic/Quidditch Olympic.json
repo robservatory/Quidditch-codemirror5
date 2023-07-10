@@ -19,18 +19,17 @@
         "description": "Based on STRIDE elements",
         "cells": [
           {
-            "angle": 90,
             "position": {
-              "x": 230,
-              "y": 171.71875
+              "x": 260,
+              "y": 149.4375
             },
             "size": {
               "width": 270,
               "height": 126.56249999999997
             },
             "shape": "trust-boundary-box",
-            "id": "165d47cc-f16e-4781-a441-5cca5b12bba2",
             "zIndex": -1,
+            "id": "165d47cc-f16e-4781-a441-5cca5b12bba2",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "Trust Boundary",
@@ -109,8 +108,8 @@
           },
           {
             "position": {
-              "x": 370,
-              "y": 30
+              "x": 790,
+              "y": 39.999999999999986
             },
             "size": {
               "width": 112.5,
@@ -143,8 +142,8 @@
           },
           {
             "position": {
-              "x": 580,
-              "y": 31
+              "x": 550,
+              "y": 39.999999999999986
             },
             "size": {
               "width": 112.5,
