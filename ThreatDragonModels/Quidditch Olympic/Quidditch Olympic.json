@@ -79,8 +79,8 @@
               "height": 360.9375
             },
             "shape": "trust-boundary-box",
-            "id": "1f6373b1-4c30-4a8e-9735-b577febccd51",
             "zIndex": -1,
+            "id": "1f6373b1-4c30-4a8e-9735-b577febccd51",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "Trust Boundary",
@@ -734,48 +734,6 @@
             }
           },
           {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "strokeWidth": 1,
-                "targetMarker": {
-                  "name": "classic"
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Data Flow",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "protocol": "",
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "hasOpenThreats": false,
-              "threats": []
-            },
-            "id": "5560b5e8-fbe4-44ca-b54a-8faf328d346e",
-            "source": {
-              "cell": "177d7058-f94d-4aa4-bf65-1733ff9dcd28"
-            },
-            "target": {
-              "cell": "5ffe0a3d-35a4-4331-ae9e-c2d0a075c483"
-            },
-            "vertices": [
-              {
-                "x": 1400,
-                "y": 445
-              }
-            ]
-          },
-          {
             "shape": "trust-broundary-curve",
             "attrs": {
               "line": {
@@ -931,6 +889,9 @@
               "threats": []
             },
             "id": "a4cb676e-29ea-4ec3-8087-a4d4ad576966",
+            "labels": [
+              "Sample Transaction"
+            ],
             "source": {
               "cell": "5a27fe48-7faa-4324-9ae3-99a00cb15609"
             },
@@ -950,9 +911,6 @@
                 "x": 1380,
                 "y": 306
               }
-            ],
-            "labels": [
-              "Sample Transaction"
             ]
           },
           {
@@ -999,6 +957,55 @@
                 "x": 790,
                 "y": 420
               }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "targetMarker": {
+                  "name": "classic"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Sell back merch",
+              "description": "Return or re-sell merch to vendor",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "5560b5e8-fbe4-44ca-b54a-8faf328d346e",
+            "source": {
+              "cell": "177d7058-f94d-4aa4-bf65-1733ff9dcd28"
+            },
+            "target": {
+              "cell": "5ffe0a3d-35a4-4331-ae9e-c2d0a075c483"
+            },
+            "vertices": [
+              {
+                "x": 1400,
+                "y": 445
+              },
+              {
+                "x": 1460,
+                "y": 380
+              }
+            ],
+            "labels": [
+              "Sell back merch"
             ]
           },
           {
@@ -1204,8 +1211,8 @@
             },
             "visible": true,
             "shape": "process",
-            "id": "2460922f-13ac-430d-a741-a3374b278b84",
             "zIndex": 16,
+            "id": "2460922f-13ac-430d-a741-a3374b278b84",
             "data": {
               "type": "tm.Process",
               "name": "Access \nMarketplace",
