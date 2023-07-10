@@ -39,12 +39,46 @@
             },
             "visible": true,
             "shape": "actor",
-            "id": "c2e976c3-f06a-4f6d-8005-989b695de9f8",
             "zIndex": 1,
+            "id": "c2e976c3-f06a-4f6d-8005-989b695de9f8",
             "data": {
               "type": "tm.Actor",
               "name": "Casual Fan",
               "description": "Here for the experience",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "providesAuthentication": false,
+              "hasOpenThreats": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 110,
+              "y": 216
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Superfan"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "id": "1c1c3593-fa3d-49c8-8dab-dbb966316ea1",
+            "zIndex": 2,
+            "data": {
+              "type": "tm.Actor",
+              "name": "Superfan",
+              "description": "Has deep interest in one or more events",
               "outOfScope": false,
               "reasonOutOfScope": "",
               "providesAuthentication": false,
