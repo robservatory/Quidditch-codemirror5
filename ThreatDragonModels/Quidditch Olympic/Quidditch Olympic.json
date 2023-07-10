@@ -20,19 +20,24 @@
         "cells": [
           {
             "position": {
-              "x": 260,
-              "y": 149.4375
+              "x": 459,
+              "y": 216
             },
             "size": {
-              "width": 270,
-              "height": 126.56249999999997
+              "width": 340,
+              "height": 159.37499999999997
             },
             "shape": "trust-boundary-box",
+            "attrs": {
+              "headerText": {
+                "text": "Event Boundary"
+              }
+            },
             "zIndex": -1,
             "id": "165d47cc-f16e-4781-a441-5cca5b12bba2",
             "data": {
               "type": "tm.BoundaryBox",
-              "name": "Trust Boundary",
+              "name": "Event Boundary",
               "description": "",
               "isTrustBoundary": true,
               "hasOpenThreats": false
