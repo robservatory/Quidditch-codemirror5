@@ -19,6 +19,27 @@
         "description": "Based on STRIDE elements",
         "cells": [
           {
+            "angle": 90,
+            "position": {
+              "x": 230,
+              "y": 171.71875
+            },
+            "size": {
+              "width": 270,
+              "height": 126.56249999999997
+            },
+            "shape": "trust-boundary-box",
+            "id": "165d47cc-f16e-4781-a441-5cca5b12bba2",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "Trust Boundary",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            }
+          },
+          {
             "position": {
               "x": 110,
               "y": 100
