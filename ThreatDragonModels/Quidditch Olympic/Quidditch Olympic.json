@@ -70,6 +70,26 @@
           },
           {
             "position": {
+              "x": 891.9999999999998,
+              "y": 475.0000000000002
+            },
+            "size": {
+              "width": 470,
+              "height": 220.3125
+            },
+            "shape": "trust-boundary-box",
+            "id": "1f6373b1-4c30-4a8e-9735-b577febccd51",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "Trust Boundary",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            }
+          },
+          {
+            "position": {
               "x": 110,
               "y": 100
             },
@@ -1156,8 +1176,8 @@
           },
           {
             "position": {
-              "x": 920,
-              "y": 300
+              "x": 960,
+              "y": 245.6875
             },
             "size": {
               "width": 100,
@@ -1165,7 +1185,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Access Marketplace"
+                "text": "Access \nMarketplace"
               },
               "body": {
                 "stroke": "#333333",
@@ -1179,7 +1199,7 @@
             "zIndex": 16,
             "data": {
               "type": "tm.Process",
-              "name": "Access Marketplace",
+              "name": "Access \nMarketplace",
               "description": "Front end for all marketplace engagement",
               "outOfScope": false,
               "reasonOutOfScope": "",
