@@ -320,8 +320,8 @@
               "y": 180
             },
             "size": {
-              "width": 110,
-              "height": 110
+              "width": 90,
+              "height": 90
             },
             "attrs": {
               "text": {
@@ -354,10 +354,13 @@
               "y": 240
             },
             "size": {
-              "width": 60,
-              "height": 60
+              "width": 120,
+              "height": 120
             },
             "attrs": {
+              "text": {
+                "text": "Event\nCoordination"
+              },
               "body": {
                 "stroke": "#333333",
                 "strokeWidth": 1,
@@ -370,8 +373,8 @@
             "zIndex": 10,
             "data": {
               "type": "tm.Process",
-              "name": "Process",
-              "description": "",
+              "name": "Event\nCoordination",
+              "description": "Provide detailed information on events and schedule",
               "outOfScope": false,
               "reasonOutOfScope": "",
               "privilegeLevel": "",
