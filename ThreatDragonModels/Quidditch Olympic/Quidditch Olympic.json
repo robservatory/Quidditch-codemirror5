@@ -16,7 +16,43 @@
         "placeholder": "New STRIDE diagram description",
         "thumbnail": "./public/content/images/thumbnail.stride.jpg",
         "version": "2.0.3",
-        "description": "Based on STRIDE elements"
+        "description": "Based on STRIDE elements",
+        "cells": [
+          {
+            "position": {
+              "x": 110,
+              "y": 100
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Casual Fan"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "id": "c2e976c3-f06a-4f6d-8005-989b695de9f8",
+            "zIndex": 1,
+            "data": {
+              "type": "tm.Actor",
+              "name": "Casual Fan",
+              "description": "Here for the experience",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "providesAuthentication": false,
+              "hasOpenThreats": false,
+              "threats": []
+            }
+          }
+        ]
       }
     ],
     "diagramTop": 1,
