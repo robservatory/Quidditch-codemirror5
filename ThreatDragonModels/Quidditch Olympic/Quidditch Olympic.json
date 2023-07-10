@@ -808,6 +808,74 @@
               "hasOpenThreats": false,
               "threats": []
             }
+          },
+          {
+            "position": {
+              "x": 1085,
+              "y": 100
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Merchant"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "id": "5ffe0a3d-35a4-4331-ae9e-c2d0a075c483",
+            "zIndex": 14,
+            "data": {
+              "type": "tm.Actor",
+              "name": "Merchant",
+              "description": "Individual seller",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "providesAuthentication": false,
+              "hasOpenThreats": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 110,
+              "y": 315
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "VIP"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "id": "b91f0799-d382-433f-a232-8c1dcb171f4e",
+            "zIndex": 15,
+            "data": {
+              "type": "tm.Actor",
+              "name": "VIP",
+              "description": "Celebrity or other such type",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "providesAuthentication": false,
+              "hasOpenThreats": false,
+              "threats": []
+            }
           }
         ]
       }
