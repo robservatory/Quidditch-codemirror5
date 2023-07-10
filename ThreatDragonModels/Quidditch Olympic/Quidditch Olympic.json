@@ -73,8 +73,8 @@
             },
             "visible": true,
             "shape": "actor",
-            "id": "1c1c3593-fa3d-49c8-8dab-dbb966316ea1",
             "zIndex": 2,
+            "id": "1c1c3593-fa3d-49c8-8dab-dbb966316ea1",
             "data": {
               "type": "tm.Actor",
               "name": "Superfan",
@@ -107,8 +107,8 @@
             },
             "visible": true,
             "shape": "actor",
-            "id": "740d4df5-49fb-452a-90fa-a6e0f559a360",
             "zIndex": 3,
+            "id": "740d4df5-49fb-452a-90fa-a6e0f559a360",
             "data": {
               "type": "tm.Actor",
               "name": "Quidditch team",
@@ -141,8 +141,8 @@
             },
             "visible": true,
             "shape": "actor",
-            "id": "4c747abf-dda9-4457-bd42-35783f201c73",
             "zIndex": 4,
+            "id": "4c747abf-dda9-4457-bd42-35783f201c73",
             "data": {
               "type": "tm.Actor",
               "name": "Athlete",
@@ -310,6 +310,71 @@
               "storesCredentials": false,
               "isEncrypted": false,
               "isSigned": false,
+              "hasOpenThreats": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 320,
+              "y": 180
+            },
+            "size": {
+              "width": 110,
+              "height": 110
+            },
+            "attrs": {
+              "text": {
+                "text": "ID\nValidation"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "id": "78247d14-b8a4-45fb-953f-b3fccd737163",
+            "zIndex": 9,
+            "data": {
+              "type": "tm.Process",
+              "name": "ID\nValidation",
+              "description": "Verify account and access",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "privilegeLevel": "",
+              "hasOpenThreats": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 569,
+              "y": 240
+            },
+            "size": {
+              "width": 60,
+              "height": 60
+            },
+            "attrs": {
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "id": "9a498298-bec3-44f2-a601-6c32b26d4e34",
+            "zIndex": 10,
+            "data": {
+              "type": "tm.Process",
+              "name": "Process",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "privilegeLevel": "",
               "hasOpenThreats": false,
               "threats": []
             }
