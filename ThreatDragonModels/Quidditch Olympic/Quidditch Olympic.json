@@ -69,13 +69,14 @@
             }
           },
           {
+            "angle": 270,
             "position": {
-              "x": 891.9999999999998,
-              "y": 475.0000000000002
+              "x": 750,
+              "y": 0
             },
             "size": {
-              "width": 470,
-              "height": 220.3125
+              "width": 770,
+              "height": 360.9375
             },
             "shape": "trust-boundary-box",
             "id": "1f6373b1-4c30-4a8e-9735-b577febccd51",
@@ -226,8 +227,8 @@
           },
           {
             "position": {
-              "x": 1141.25,
-              "y": 195
+              "x": 1111.25,
+              "y": 40
             },
             "size": {
               "width": 120,
@@ -267,7 +268,7 @@
           {
             "position": {
               "x": 1141.25,
-              "y": 315.375
+              "y": 360
             },
             "size": {
               "width": 120,
@@ -306,8 +307,8 @@
           },
           {
             "position": {
-              "x": 1141.25,
-              "y": 415
+              "x": 1130,
+              "y": 470
             },
             "size": {
               "width": 120,
@@ -346,8 +347,8 @@
           },
           {
             "position": {
-              "x": 1160,
-              "y": 90
+              "x": 1141.25,
+              "y": -160
             },
             "size": {
               "width": 120,
@@ -919,7 +920,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "Sample Transaction",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -938,12 +939,20 @@
             },
             "vertices": [
               {
+                "x": 1280,
+                "y": 250
+              },
+              {
                 "x": 1310,
                 "y": 280
+              },
+              {
+                "x": 1380,
+                "y": 306
               }
             ],
             "labels": [
-              "Data Flow"
+              "Sample Transaction"
             ]
           },
           {
