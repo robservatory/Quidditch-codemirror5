@@ -1148,6 +1148,85 @@
             }
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "targetMarker": {
+                  "name": "classic"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "fd9284eb-9345-47f2-bafe-7b62be5d8457",
+            "source": {
+              "cell": "2460922f-13ac-430d-a741-a3374b278b84"
+            },
+            "target": {
+              "cell": "c7d8b2a5-1c39-47c6-84b5-23ab4a0795c6"
+            },
+            "vertices": [
+              {
+                "x": 1150,
+                "y": 320
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "targetMarker": {
+                  "name": "classic"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "8b6ae39d-c4d3-4605-ba37-48e55d9291f9",
+            "source": {
+              "x": 223,
+              "y": 336
+            },
+            "target": {
+              "cell": "78247d14-b8a4-45fb-953f-b3fccd737163"
+            }
+          },
+          {
             "position": {
               "x": 760,
               "y": 700
