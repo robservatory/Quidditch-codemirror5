@@ -830,49 +830,6 @@
               "hasOpenThreats": false,
               "threats": []
             },
-            "id": "fceccdbf-bdcd-470c-b747-cc72137a6597",
-            "source": {
-              "cell": "78247d14-b8a4-45fb-953f-b3fccd737163"
-            },
-            "target": {
-              "x": 880,
-              "y": 410
-            },
-            "vertices": [
-              {
-                "x": 369.5,
-                "y": 420
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "strokeWidth": 1,
-                "targetMarker": {
-                  "name": "classic"
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Data Flow",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "protocol": "",
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "hasOpenThreats": false,
-              "threats": []
-            },
             "id": "c75c9ae6-9f79-43ca-9dc2-a2e71c41319c",
             "source": {
               "cell": "c7d8b2a5-1c39-47c6-84b5-23ab4a0795c6"
@@ -963,6 +920,55 @@
               {
                 "x": 1310,
                 "y": 280
+              }
+            ],
+            "labels": [
+              "Data Flow"
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "targetMarker": {
+                  "name": "classic"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "fceccdbf-bdcd-470c-b747-cc72137a6597",
+            "source": {
+              "cell": "78247d14-b8a4-45fb-953f-b3fccd737163"
+            },
+            "target": {
+              "cell": "2460922f-13ac-430d-a741-a3374b278b84"
+            },
+            "vertices": [
+              {
+                "x": 369.5,
+                "y": 420
+              },
+              {
+                "x": 790,
+                "y": 420
               }
             ]
           },
@@ -1144,6 +1150,40 @@
               "outOfScope": false,
               "reasonOutOfScope": "",
               "providesAuthentication": false,
+              "hasOpenThreats": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 920,
+              "y": 300
+            },
+            "size": {
+              "width": 100,
+              "height": 100
+            },
+            "attrs": {
+              "text": {
+                "text": "Access Marketplace"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "id": "2460922f-13ac-430d-a741-a3374b278b84",
+            "zIndex": 16,
+            "data": {
+              "type": "tm.Process",
+              "name": "Access Marketplace",
+              "description": "Front end for all marketplace engagement",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "privilegeLevel": "",
               "hasOpenThreats": false,
               "threats": []
             }
