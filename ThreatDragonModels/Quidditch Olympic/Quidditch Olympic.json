@@ -799,52 +799,6 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "protocol": "",
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "hasOpenThreats": false,
-              "threats": []
-            },
-            "id": "ba654c3b-6f78-4643-9637-9987a22bbeaa",
-            "source": {
-              "cell": "68a19d70-075c-4461-98f8-e2d739d4d07e"
-            },
-            "target": {
-              "cell": "5ffe0a3d-35a4-4331-ae9e-c2d0a075c483"
-            },
-            "vertices": [
-              {
-                "x": 1400,
-                "y": 80
-              },
-              {
-                "x": 1460,
-                "y": 190
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "strokeWidth": 1,
-                "targetMarker": {
-                  "name": "classic"
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
               "name": "Sample Transaction",
               "description": "",
               "outOfScope": false,
@@ -1022,6 +976,55 @@
             ],
             "labels": [
               "Sample Wager"
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "targetMarker": {
+                  "name": "classic"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Payment Transactions ",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "ba654c3b-6f78-4643-9637-9987a22bbeaa",
+            "source": {
+              "cell": "68a19d70-075c-4461-98f8-e2d739d4d07e"
+            },
+            "target": {
+              "cell": "5ffe0a3d-35a4-4331-ae9e-c2d0a075c483"
+            },
+            "vertices": [
+              {
+                "x": 1400,
+                "y": 80
+              },
+              {
+                "x": 1460,
+                "y": 190
+              }
+            ],
+            "labels": [
+              "Payment Transactions "
             ]
           },
           {
