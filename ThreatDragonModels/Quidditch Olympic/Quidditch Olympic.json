@@ -384,7 +384,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Event\nCoordination"
+                "text": "Overall\nEvent\nCoordination"
               },
               "body": {
                 "stroke": "#333333",
@@ -398,7 +398,7 @@
             "id": "9a498298-bec3-44f2-a601-6c32b26d4e34",
             "data": {
               "type": "tm.Process",
-              "name": "Event\nCoordination",
+              "name": "Overall\nEvent\nCoordination",
               "description": "Provide detailed information on events and schedule",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -697,6 +697,40 @@
                 "y": 280
               }
             ]
+          },
+          {
+            "position": {
+              "x": 710,
+              "y": 450
+            },
+            "size": {
+              "width": 130,
+              "height": 130
+            },
+            "attrs": {
+              "text": {
+                "text": "Results"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "id": "6808bd8c-208a-44d1-be63-c5cde261c143",
+            "zIndex": 11,
+            "data": {
+              "type": "tm.Process",
+              "name": "Results",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "privilegeLevel": "",
+              "hasOpenThreats": false,
+              "threats": []
+            }
           }
         ]
       }
