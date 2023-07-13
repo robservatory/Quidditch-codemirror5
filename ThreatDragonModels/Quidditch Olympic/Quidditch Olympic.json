@@ -1508,6 +1508,58 @@
             ]
           },
           {
+            "shape": "trust-broundary-curve",
+            "attrs": {
+              "line": {
+                "targetMarker": "",
+                "sourceMarker": ""
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "labels": [
+              {
+                "attrs": {
+                  "text": {
+                    "text": ""
+                  }
+                }
+              }
+            ],
+            "data": {
+              "type": "tm.Boundary",
+              "name": "",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "id": "0123ad37-bdf3-466b-81e6-9ea5806813f2",
+            "source": {
+              "x": 1200,
+              "y": 590
+            },
+            "target": {
+              "x": 1200,
+              "y": 590
+            },
+            "vertices": [
+              {
+                "x": 1140,
+                "y": 580
+              },
+              {
+                "x": 1080,
+                "y": 470
+              },
+              {
+                "x": 1280,
+                "y": 470
+              }
+            ]
+          },
+          {
             "position": {
               "x": 760,
               "y": 700
