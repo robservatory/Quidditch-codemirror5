@@ -572,58 +572,6 @@
             }
           },
           {
-            "shape": "trust-broundary-curve",
-            "attrs": {
-              "line": {
-                "targetMarker": "",
-                "sourceMarker": ""
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "labels": [
-              {
-                "attrs": {
-                  "text": {
-                    "text": ""
-                  }
-                }
-              }
-            ],
-            "data": {
-              "type": "tm.Boundary",
-              "name": "",
-              "description": "",
-              "isTrustBoundary": true,
-              "hasOpenThreats": false
-            },
-            "id": "07dbc465-e381-4825-b52e-9a29c71dc1bf",
-            "source": {
-              "x": 480,
-              "y": 30
-            },
-            "target": {
-              "x": 510,
-              "y": 153
-            },
-            "vertices": [
-              {
-                "x": 460,
-                "y": 70
-              },
-              {
-                "x": 460,
-                "y": 110
-              },
-              {
-                "x": 490,
-                "y": 153
-              }
-            ]
-          },
-          {
             "shape": "flow",
             "attrs": {
               "line": {
@@ -1756,6 +1704,58 @@
               {
                 "x": 420,
                 "y": 112
+              }
+            ]
+          },
+          {
+            "shape": "trust-broundary-curve",
+            "attrs": {
+              "line": {
+                "targetMarker": "",
+                "sourceMarker": ""
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "labels": [
+              {
+                "attrs": {
+                  "text": {
+                    "text": ""
+                  }
+                }
+              }
+            ],
+            "data": {
+              "type": "tm.Boundary",
+              "name": "",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "id": "07dbc465-e381-4825-b52e-9a29c71dc1bf",
+            "source": {
+              "x": 600,
+              "y": -250
+            },
+            "target": {
+              "x": 860,
+              "y": 130
+            },
+            "vertices": [
+              {
+                "x": 470,
+                "y": 0
+              },
+              {
+                "x": 430,
+                "y": 70
+              },
+              {
+                "x": 490,
+                "y": 153
               }
             ]
           },
