@@ -1480,43 +1480,6 @@
             ]
           },
           {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "strokeWidth": 1,
-                "targetMarker": {
-                  "name": "classic"
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Data Flow",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "protocol": "",
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "hasOpenThreats": false,
-              "threats": []
-            },
-            "id": "32c143d4-058d-4f6a-9496-9921f4a90206",
-            "source": {
-              "x": 663,
-              "y": 62
-            },
-            "target": {
-              "cell": "740d4df5-49fb-452a-90fa-a6e0f559a360"
-            }
-          },
-          {
             "shape": "trust-broundary-curve",
             "attrs": {
               "line": {
@@ -1581,6 +1544,42 @@
                 "target-arrowhead"
               ],
               "name": null
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "targetMarker": {
+                  "name": "classic"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "32c143d4-058d-4f6a-9496-9921f4a90206",
+            "source": {
+              "cell": "4c747abf-dda9-4457-bd42-35783f201c73"
+            },
+            "target": {
+              "cell": "740d4df5-49fb-452a-90fa-a6e0f559a360"
             }
           },
           {
