@@ -1866,7 +1866,7 @@
             "data": {
               "type": "tm.Process",
               "name": "See the Past",
-              "description": "",
+              "description": "Archive of event history - wizardpedia like",
               "outOfScope": false,
               "reasonOutOfScope": "",
               "privilegeLevel": "",
