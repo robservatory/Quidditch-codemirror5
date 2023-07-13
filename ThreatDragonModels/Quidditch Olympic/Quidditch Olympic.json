@@ -754,12 +754,12 @@
                 "y": 250
               },
               {
-                "x": 1310,
-                "y": 280
+                "x": 1350,
+                "y": 250
               },
               {
-                "x": 1380,
-                "y": 306
+                "x": 1440,
+                "y": 270
               }
             ]
           },
@@ -827,55 +827,6 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Sell back merch",
-              "description": "Return or re-sell merch to vendor",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "protocol": "",
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "hasOpenThreats": false,
-              "threats": []
-            },
-            "id": "5560b5e8-fbe4-44ca-b54a-8faf328d346e",
-            "labels": [
-              "Sell back merch"
-            ],
-            "source": {
-              "cell": "177d7058-f94d-4aa4-bf65-1733ff9dcd28"
-            },
-            "target": {
-              "cell": "5ffe0a3d-35a4-4331-ae9e-c2d0a075c483"
-            },
-            "vertices": [
-              {
-                "x": 1400,
-                "y": 445
-              },
-              {
-                "x": 1460,
-                "y": 380
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "strokeWidth": 1,
-                "targetMarker": {
-                  "name": "classic"
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
               "name": "Sample Wager",
               "description": "",
               "outOfScope": false,
@@ -902,8 +853,8 @@
                 "y": 390
               },
               {
-                "x": 1400,
-                "y": 370
+                "x": 1490,
+                "y": 340
               }
             ]
           },
@@ -1456,6 +1407,55 @@
             }
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "targetMarker": {
+                  "name": "classic"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Sell back merch",
+              "description": "Return or re-sell merch to vendor",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "5560b5e8-fbe4-44ca-b54a-8faf328d346e",
+            "labels": [
+              "Sell back merch"
+            ],
+            "source": {
+              "cell": "177d7058-f94d-4aa4-bf65-1733ff9dcd28"
+            },
+            "target": {
+              "cell": "5ffe0a3d-35a4-4331-ae9e-c2d0a075c483"
+            },
+            "vertices": [
+              {
+                "x": 1400,
+                "y": 445
+              },
+              {
+                "x": 1530,
+                "y": 410
+              }
+            ]
+          },
+          {
             "shape": "trust-broundary-curve",
             "attrs": {
               "line": {
@@ -1485,17 +1485,25 @@
             },
             "id": "85e8d178-7512-4c84-bab4-2a87a3d72558",
             "source": {
-              "x": 914,
-              "y": 240
+              "x": 1350,
+              "y": 410
             },
             "target": {
-              "x": 1014,
-              "y": 340
+              "x": 1360,
+              "y": 410
             },
             "vertices": [
               {
-                "x": 914,
-                "y": 470
+                "x": 1330,
+                "y": 340
+              },
+              {
+                "x": 1080,
+                "y": 360
+              },
+              {
+                "x": 1150,
+                "y": 440
               }
             ]
           },
@@ -1615,8 +1623,8 @@
           },
           {
             "position": {
-              "x": 1445,
-              "y": 276
+              "x": 1595,
+              "y": 240
             },
             "size": {
               "width": 112.5,
