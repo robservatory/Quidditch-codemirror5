@@ -2063,8 +2063,8 @@
             },
             "visible": true,
             "shape": "actor",
-            "id": "82ca7273-e179-4dbd-9e69-f64759fcb023",
             "zIndex": 18,
+            "id": "82ca7273-e179-4dbd-9e69-f64759fcb023",
             "data": {
               "type": "tm.Actor",
               "name": "Coach",
@@ -2086,6 +2086,9 @@
               "height": 60
             },
             "attrs": {
+              "text": {
+                "text": "Team Admin"
+              },
               "body": {
                 "stroke": "#333333",
                 "strokeWidth": 1,
@@ -2094,12 +2097,12 @@
             },
             "visible": true,
             "shape": "actor",
-            "id": "ec6eae58-5250-4977-82fc-280255cc3b88",
             "zIndex": 19,
+            "id": "ec6eae58-5250-4977-82fc-280255cc3b88",
             "data": {
               "type": "tm.Actor",
-              "name": "Actor",
-              "description": "",
+              "name": "Team Admin",
+              "description": "Representative for the team - could be a social media director, media relations, logistics coordinator, etc",
               "outOfScope": false,
               "reasonOutOfScope": "",
               "providesAuthentication": false,
