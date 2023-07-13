@@ -1718,58 +1718,6 @@
             ]
           },
           {
-            "shape": "trust-broundary-curve",
-            "attrs": {
-              "line": {
-                "targetMarker": "",
-                "sourceMarker": ""
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "labels": [
-              {
-                "attrs": {
-                  "text": {
-                    "text": ""
-                  }
-                }
-              }
-            ],
-            "data": {
-              "type": "tm.Boundary",
-              "name": "",
-              "description": "",
-              "isTrustBoundary": true,
-              "hasOpenThreats": false
-            },
-            "id": "07dbc465-e381-4825-b52e-9a29c71dc1bf",
-            "source": {
-              "x": 600,
-              "y": -250
-            },
-            "target": {
-              "x": 860,
-              "y": 130
-            },
-            "vertices": [
-              {
-                "x": 470,
-                "y": 0
-              },
-              {
-                "x": 430,
-                "y": 70
-              },
-              {
-                "x": 490,
-                "y": 153
-              }
-            ]
-          },
-          {
             "shape": "flow",
             "attrs": {
               "line": {
@@ -1804,6 +1752,100 @@
             "target": {
               "cell": "ec6eae58-5250-4977-82fc-280255cc3b88"
             }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "targetMarker": {
+                  "name": "classic"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "031e3089-b220-48bd-b04d-391afede3914",
+            "source": {
+              "cell": "ec6eae58-5250-4977-82fc-280255cc3b88"
+            },
+            "target": {
+              "cell": "9a498298-bec3-44f2-a601-6c32b26d4e34"
+            },
+            "vertices": [
+              {
+                "x": 855.25,
+                "y": 270
+              }
+            ]
+          },
+          {
+            "shape": "trust-broundary-curve",
+            "attrs": {
+              "line": {
+                "targetMarker": "",
+                "sourceMarker": ""
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "labels": [
+              {
+                "attrs": {
+                  "text": {
+                    "text": ""
+                  }
+                }
+              }
+            ],
+            "data": {
+              "type": "tm.Boundary",
+              "name": "",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "id": "07dbc465-e381-4825-b52e-9a29c71dc1bf",
+            "source": {
+              "x": 600,
+              "y": -250
+            },
+            "target": {
+              "x": 900,
+              "y": 120
+            },
+            "vertices": [
+              {
+                "x": 470,
+                "y": 0
+              },
+              {
+                "x": 430,
+                "y": 70
+              },
+              {
+                "x": 490,
+                "y": 153
+              }
+            ]
           },
           {
             "position": {
