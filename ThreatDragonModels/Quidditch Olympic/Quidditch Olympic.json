@@ -1993,6 +1993,40 @@
                 }
               ]
             }
+          },
+          {
+            "position": {
+              "x": 743,
+              "y": 40
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Coach"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "id": "82ca7273-e179-4dbd-9e69-f64759fcb023",
+            "zIndex": 18,
+            "data": {
+              "type": "tm.Actor",
+              "name": "Coach",
+              "description": "Team coach(es)",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "providesAuthentication": false,
+              "hasOpenThreats": false,
+              "threats": []
+            }
           }
         ]
       }
