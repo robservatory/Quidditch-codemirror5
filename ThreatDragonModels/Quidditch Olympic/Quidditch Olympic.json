@@ -1624,6 +1624,11 @@
                 "button-remove",
                 "vertices",
                 "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
                 "target-arrowhead"
               ],
               "name": null
@@ -2039,8 +2044,8 @@
           },
           {
             "position": {
-              "x": 743,
-              "y": 40
+              "x": 686.5,
+              "y": 50
             },
             "size": {
               "width": 112.5,
@@ -2064,6 +2069,37 @@
               "type": "tm.Actor",
               "name": "Coach",
               "description": "Team coach(es)",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "providesAuthentication": false,
+              "hasOpenThreats": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 799,
+              "y": -137
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "id": "ec6eae58-5250-4977-82fc-280255cc3b88",
+            "zIndex": 19,
+            "data": {
+              "type": "tm.Actor",
+              "name": "Actor",
+              "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
               "providesAuthentication": false,
