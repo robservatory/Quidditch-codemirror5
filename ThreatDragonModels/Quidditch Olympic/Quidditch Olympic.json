@@ -70,19 +70,19 @@
           },
           {
             "position": {
-              "x": 980,
-              "y": -270
+              "x": 999.9999999999995,
+              "y": -260
             },
             "size": {
-              "width": 480,
-              "height": 910
+              "width": 490,
+              "height": 930
             },
             "shape": "trust-boundary-box",
-            "id": "94a51ddb-1c56-41ab-ae1e-eae463c72d06",
+            "id": "4373fb8e-26ce-47b4-8d41-32eb17353a33",
             "zIndex": -1,
             "data": {
-              "type": "tm.Boundary",
-              "name": "",
+              "type": "tm.BoundaryBox",
+              "name": "Trust Boundary",
               "description": "",
               "isTrustBoundary": true,
               "hasOpenThreats": false
@@ -322,8 +322,8 @@
           },
           {
             "position": {
-              "x": 1261.25,
-              "y": 290
+              "x": 1291.25,
+              "y": 265.6875
             },
             "size": {
               "width": 120,
@@ -347,9 +347,9 @@
             "zIndex": 6,
             "id": "c7d8b2a5-1c39-47c6-84b5-23ab4a0795c6",
             "data": {
-              "type": "tm.Store",
-              "name": "Gaming Vendor",
-              "description": "Gambling store",
+              "type": "tm.Boundary",
+              "name": "",
+              "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
               "isALog": false,
@@ -357,7 +357,8 @@
               "isEncrypted": false,
               "isSigned": false,
               "hasOpenThreats": false,
-              "threats": []
+              "threats": [],
+              "isTrustBoundary": true
             }
           },
           {
@@ -1769,12 +1770,12 @@
             },
             "id": "ff1df60e-c5a4-4d61-ba57-9f3ab5825cd3",
             "source": {
-              "x": 1490,
-              "y": -120
+              "x": 1370,
+              "y": -130
             },
             "target": {
-              "x": 1490,
-              "y": -120
+              "x": 1360,
+              "y": -130
             },
             "vertices": [
               {
@@ -1788,6 +1789,14 @@
               {
                 "x": 1130,
                 "y": -190
+              },
+              {
+                "x": 1310,
+                "y": -190
+              },
+              {
+                "x": 1370,
+                "y": -150
               }
             ]
           },
@@ -1804,17 +1813,64 @@
               "isTrustBoundary": true,
               "hasOpenThreats": false
             },
-            "id": "7b3bf01f-c72e-4bd3-a7ce-ac898b52af35",
+            "id": "f7ef55a0-0d20-4428-9a1e-673484a4a3ef",
             "source": {
-              "cell": "94a51ddb-1c56-41ab-ae1e-eae463c72d06"
+              "x": 1270,
+              "y": 40
             },
             "target": {
-              "cell": "94a51ddb-1c56-41ab-ae1e-eae463c72d06"
+              "x": 1270,
+              "y": 50
             },
             "vertices": [
               {
-                "x": 1110,
+                "x": 1130,
                 "y": 20
+              },
+              {
+                "x": 1130,
+                "y": 130
+              },
+              {
+                "x": 1270,
+                "y": 110
+              }
+            ]
+          },
+          {
+            "shape": "trust-broundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "id": "a995a982-0401-4016-a7de-804e84600436",
+            "source": {
+              "x": 1440,
+              "y": 250
+            },
+            "target": {
+              "x": 1440,
+              "y": 260
+            },
+            "vertices": [
+              {
+                "x": 1240,
+                "y": 270
+              },
+              {
+                "x": 1273,
+                "y": 366
+              },
+              {
+                "x": 1440,
+                "y": 340
               }
             ]
           },
