@@ -45,8 +45,8 @@
           },
           {
             "position": {
-              "x": 630,
-              "y": 660
+              "x": 590,
+              "y": 585.46875
             },
             "size": {
               "width": 390,
@@ -71,12 +71,12 @@
           {
             "angle": 270,
             "position": {
-              "x": 750,
-              "y": 0
+              "x": 816.25,
+              "y": -74.53125000000006
             },
             "size": {
               "width": 770,
-              "height": 360.9375
+              "height": 510
             },
             "shape": "trust-boundary-box",
             "zIndex": -1,
@@ -277,8 +277,8 @@
             },
             "visible": true,
             "shape": "store",
-            "id": "5a27fe48-7faa-4324-9ae3-99a00cb15609",
             "zIndex": 5,
+            "id": "5a27fe48-7faa-4324-9ae3-99a00cb15609",
             "data": {
               "type": "tm.Store",
               "name": "Food Vendor",
@@ -295,8 +295,8 @@
           },
           {
             "position": {
-              "x": 1141.25,
-              "y": 360
+              "x": 1180,
+              "y": 350
             },
             "size": {
               "width": 120,
@@ -307,18 +307,18 @@
                 "text": "Gaming Vendor"
               },
               "topLine": {
-                "strokeWidth": 1,
+                "strokeWidth": 1.5,
                 "strokeDasharray": null
               },
               "bottomLine": {
-                "strokeWidth": 1,
+                "strokeWidth": 1.5,
                 "strokeDasharray": null
               }
             },
             "visible": true,
             "shape": "store",
-            "id": "c7d8b2a5-1c39-47c6-84b5-23ab4a0795c6",
             "zIndex": 6,
+            "id": "c7d8b2a5-1c39-47c6-84b5-23ab4a0795c6",
             "data": {
               "type": "tm.Store",
               "name": "Gaming Vendor",
@@ -357,8 +357,8 @@
             },
             "visible": true,
             "shape": "store",
-            "id": "177d7058-f94d-4aa4-bf65-1733ff9dcd28",
             "zIndex": 7,
+            "id": "177d7058-f94d-4aa4-bf65-1733ff9dcd28",
             "data": {
               "type": "tm.Store",
               "name": "Ditch the Quidditch",
@@ -397,8 +397,8 @@
             },
             "visible": true,
             "shape": "store",
-            "id": "68a19d70-075c-4461-98f8-e2d739d4d07e",
             "zIndex": 8,
+            "id": "68a19d70-075c-4461-98f8-e2d739d4d07e",
             "data": {
               "type": "tm.Store",
               "name": "Quidditch gifts",
@@ -516,6 +516,7 @@
               "name": "Data Flow",
               "description": "",
               "outOfScope": false,
+              "isBidirectional": false,
               "reasonOutOfScope": "",
               "protocol": "",
               "isEncrypted": false,
@@ -554,6 +555,7 @@
               "name": "Data Flow",
               "description": "",
               "outOfScope": false,
+              "isBidirectional": false,
               "reasonOutOfScope": "",
               "protocol": "",
               "isEncrypted": false,
@@ -592,6 +594,7 @@
               "name": "Data Flow",
               "description": "",
               "outOfScope": false,
+              "isBidirectional": false,
               "reasonOutOfScope": "",
               "protocol": "",
               "isEncrypted": false,
@@ -634,6 +637,7 @@
               "name": "Sample Transaction",
               "description": "",
               "outOfScope": false,
+              "isBidirectional": false,
               "reasonOutOfScope": "",
               "protocol": "",
               "isEncrypted": false,
@@ -653,16 +657,16 @@
             },
             "vertices": [
               {
-                "x": 1280,
-                "y": 250
+                "x": 1320,
+                "y": 210
               },
               {
-                "x": 1350,
-                "y": 250
+                "x": 1530,
+                "y": 190
               },
               {
-                "x": 1440,
-                "y": 270
+                "x": 1640,
+                "y": 210
               }
             ]
           },
@@ -687,6 +691,7 @@
               "name": "Data Flow",
               "description": "",
               "outOfScope": false,
+              "isBidirectional": false,
               "reasonOutOfScope": "",
               "protocol": "",
               "isEncrypted": false,
@@ -733,6 +738,7 @@
               "name": "Sample Wager",
               "description": "",
               "outOfScope": false,
+              "isBidirectional": false,
               "reasonOutOfScope": "",
               "protocol": "",
               "isEncrypted": false,
@@ -782,6 +788,7 @@
               "name": "Payment Transactions ",
               "description": "",
               "outOfScope": false,
+              "isBidirectional": false,
               "reasonOutOfScope": "",
               "protocol": "",
               "isEncrypted": false,
@@ -805,8 +812,8 @@
                 "y": 20
               },
               {
-                "x": 1490,
-                "y": 180
+                "x": 1790,
+                "y": 80
               }
             ]
           },
@@ -831,6 +838,7 @@
               "name": "Data Flow",
               "description": "",
               "outOfScope": false,
+              "isBidirectional": false,
               "reasonOutOfScope": "",
               "protocol": "",
               "isEncrypted": false,
@@ -873,6 +881,7 @@
               "name": "Data Flow",
               "description": "",
               "outOfScope": false,
+              "isBidirectional": false,
               "reasonOutOfScope": "",
               "protocol": "",
               "isEncrypted": false,
@@ -915,6 +924,7 @@
               "name": "Data Flow",
               "description": "",
               "outOfScope": false,
+              "isBidirectional": false,
               "reasonOutOfScope": "",
               "protocol": "",
               "isEncrypted": false,
@@ -957,6 +967,7 @@
               "name": "Data Flow",
               "description": "",
               "outOfScope": false,
+              "isBidirectional": false,
               "reasonOutOfScope": "",
               "protocol": "",
               "isEncrypted": false,
@@ -994,6 +1005,7 @@
               "name": "Data Flow",
               "description": "",
               "outOfScope": false,
+              "isBidirectional": false,
               "reasonOutOfScope": "",
               "protocol": "",
               "isEncrypted": false,
@@ -1030,6 +1042,7 @@
               "name": "Data Flow",
               "description": "",
               "outOfScope": false,
+              "isBidirectional": false,
               "reasonOutOfScope": "",
               "protocol": "",
               "isEncrypted": false,
@@ -1066,6 +1079,7 @@
               "name": "Data Flow",
               "description": "",
               "outOfScope": false,
+              "isBidirectional": false,
               "reasonOutOfScope": "",
               "protocol": "",
               "isEncrypted": false,
@@ -1099,6 +1113,14 @@
             "height": 100,
             "zIndex": 10,
             "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "id": "dccb3033-9ac9-4135-acaf-5c6d03f30af7",
             "labels": [
               {
                 "attrs": {
@@ -1108,14 +1130,6 @@
                 }
               }
             ],
-            "data": {
-              "type": "tm.Boundary",
-              "name": "",
-              "description": "",
-              "isTrustBoundary": true,
-              "hasOpenThreats": false
-            },
-            "id": "dccb3033-9ac9-4135-acaf-5c6d03f30af7",
             "source": {
               "x": 310,
               "y": 80
@@ -1160,6 +1174,7 @@
               "name": "Data Flow",
               "description": "",
               "outOfScope": false,
+              "isBidirectional": false,
               "reasonOutOfScope": "",
               "protocol": "",
               "isEncrypted": false,
@@ -1206,6 +1221,7 @@
               "name": "Data Flow",
               "description": "",
               "outOfScope": false,
+              "isBidirectional": false,
               "reasonOutOfScope": "",
               "protocol": "",
               "isEncrypted": false,
@@ -1233,9 +1249,6 @@
             "height": 100,
             "zIndex": 10,
             "connector": "smooth",
-            "labels": [
-              ""
-            ],
             "data": {
               "type": "tm.Boundary",
               "name": "",
@@ -1244,6 +1257,9 @@
               "hasOpenThreats": false
             },
             "id": "1344138e-7139-40ce-b0b1-3edaf6f42e03",
+            "labels": [
+              ""
+            ],
             "source": {
               "x": 1190,
               "y": -240
@@ -1256,6 +1272,10 @@
               {
                 "x": 1080,
                 "y": -210
+              },
+              {
+                "x": 1080,
+                "y": -160
               },
               {
                 "x": 1160,
@@ -1288,6 +1308,7 @@
               "name": "Sell back merch",
               "description": "Return or re-sell merch to vendor",
               "outOfScope": false,
+              "isBidirectional": false,
               "reasonOutOfScope": "",
               "protocol": "",
               "isEncrypted": false,
@@ -1328,67 +1349,6 @@
             "height": 100,
             "zIndex": 10,
             "connector": "smooth",
-            "labels": [
-              {
-                "attrs": {
-                  "text": {
-                    "text": ""
-                  }
-                }
-              }
-            ],
-            "data": {
-              "type": "tm.Boundary",
-              "name": "",
-              "description": "",
-              "isTrustBoundary": true,
-              "hasOpenThreats": false
-            },
-            "id": "85e8d178-7512-4c84-bab4-2a87a3d72558",
-            "source": {
-              "x": 1350,
-              "y": 410
-            },
-            "target": {
-              "x": 1360,
-              "y": 410
-            },
-            "vertices": [
-              {
-                "x": 1330,
-                "y": 340
-              },
-              {
-                "x": 1080,
-                "y": 360
-              },
-              {
-                "x": 1150,
-                "y": 440
-              }
-            ]
-          },
-          {
-            "shape": "trust-broundary-curve",
-            "attrs": {
-              "line": {
-                "targetMarker": "",
-                "sourceMarker": ""
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "labels": [
-              {
-                "attrs": {
-                  "text": {
-                    "text": ""
-                  }
-                }
-              }
-            ],
             "data": {
               "type": "tm.Boundary",
               "name": "",
@@ -1397,6 +1357,15 @@
               "hasOpenThreats": false
             },
             "id": "0123ad37-bdf3-466b-81e6-9ea5806813f2",
+            "labels": [
+              {
+                "attrs": {
+                  "text": {
+                    "text": ""
+                  }
+                }
+              }
+            ],
             "source": {
               "x": 1200,
               "y": 590
@@ -1432,6 +1401,14 @@
             "height": 100,
             "zIndex": 10,
             "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "id": "bc238b9b-a675-49dc-8708-0f3e3f506c12",
             "labels": [
               {
                 "attrs": {
@@ -1441,14 +1418,6 @@
                 }
               }
             ],
-            "data": {
-              "type": "tm.Boundary",
-              "name": "",
-              "description": "",
-              "isTrustBoundary": true,
-              "hasOpenThreats": false
-            },
-            "id": "bc238b9b-a675-49dc-8708-0f3e3f506c12",
             "source": {
               "x": 1350,
               "y": 130
@@ -1456,21 +1425,6 @@
             "target": {
               "x": 1340,
               "y": 130
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead"
-              ],
-              "name": null
             },
             "vertices": [
               {
@@ -1508,6 +1462,7 @@
               "name": "Data Flow",
               "description": "",
               "outOfScope": false,
+              "isBidirectional": false,
               "reasonOutOfScope": "",
               "protocol": "",
               "isEncrypted": false,
@@ -1535,6 +1490,14 @@
             "height": 100,
             "zIndex": 10,
             "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "id": "48c5c691-c171-47d0-83f6-587fbf8eaa7d",
             "labels": [
               {
                 "attrs": {
@@ -1544,14 +1507,6 @@
                 }
               }
             ],
-            "data": {
-              "type": "tm.Boundary",
-              "name": "",
-              "description": "",
-              "isTrustBoundary": true,
-              "hasOpenThreats": false
-            },
-            "id": "48c5c691-c171-47d0-83f6-587fbf8eaa7d",
             "source": {
               "x": 20,
               "y": 180
@@ -1593,6 +1548,14 @@
             "height": 100,
             "zIndex": 10,
             "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "id": "5db27b08-dc21-47c1-8a6c-fc081c7519b3",
             "labels": [
               {
                 "attrs": {
@@ -1602,14 +1565,6 @@
                 }
               }
             ],
-            "data": {
-              "type": "tm.Boundary",
-              "name": "",
-              "description": "",
-              "isTrustBoundary": true,
-              "hasOpenThreats": false
-            },
-            "id": "5db27b08-dc21-47c1-8a6c-fc081c7519b3",
             "source": {
               "x": 20,
               "y": 280
@@ -1617,26 +1572,6 @@
             "target": {
               "x": 270,
               "y": 300
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead"
-              ],
-              "name": null
             }
           },
           {
@@ -1660,6 +1595,7 @@
               "name": "Data Flow",
               "description": "",
               "outOfScope": false,
+              "isBidirectional": false,
               "reasonOutOfScope": "",
               "protocol": "",
               "isEncrypted": false,
@@ -1696,6 +1632,7 @@
               "name": "Data Flow",
               "description": "",
               "outOfScope": false,
+              "isBidirectional": false,
               "reasonOutOfScope": "",
               "protocol": "",
               "isEncrypted": false,
@@ -1738,6 +1675,7 @@
               "name": "Data Flow",
               "description": "",
               "outOfScope": false,
+              "isBidirectional": false,
               "reasonOutOfScope": "",
               "protocol": "",
               "isEncrypted": false,
@@ -1774,6 +1712,7 @@
               "name": "Data Flow",
               "description": "",
               "outOfScope": false,
+              "isBidirectional": false,
               "reasonOutOfScope": "",
               "protocol": "",
               "isEncrypted": false,
@@ -1807,6 +1746,14 @@
             "height": 100,
             "zIndex": 10,
             "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "id": "07dbc465-e381-4825-b52e-9a29c71dc1bf",
             "labels": [
               {
                 "attrs": {
@@ -1816,14 +1763,6 @@
                 }
               }
             ],
-            "data": {
-              "type": "tm.Boundary",
-              "name": "",
-              "description": "",
-              "isTrustBoundary": true,
-              "hasOpenThreats": false
-            },
-            "id": "07dbc465-e381-4825-b52e-9a29c71dc1bf",
             "source": {
               "x": 600,
               "y": -250
@@ -1868,6 +1807,7 @@
               "name": "Data Flow",
               "description": "",
               "outOfScope": false,
+              "isBidirectional": false,
               "reasonOutOfScope": "",
               "protocol": "",
               "isEncrypted": false,
@@ -1891,8 +1831,8 @@
           },
           {
             "position": {
-              "x": 760,
-              "y": 700
+              "x": 730,
+              "y": 585.46875
             },
             "size": {
               "width": 130,
@@ -1904,7 +1844,7 @@
               },
               "body": {
                 "stroke": "#333333",
-                "strokeWidth": 1,
+                "strokeWidth": 1.5,
                 "strokeDasharray": null
               }
             },
@@ -1926,7 +1866,7 @@
           {
             "position": {
               "x": 160,
-              "y": 800
+              "y": 708.28125
             },
             "size": {
               "width": 120,
@@ -1937,18 +1877,18 @@
                 "text": "Rules"
               },
               "topLine": {
-                "strokeWidth": 1,
+                "strokeWidth": 1.5,
                 "strokeDasharray": null
               },
               "bottomLine": {
-                "strokeWidth": 1,
+                "strokeWidth": 1.5,
                 "strokeDasharray": null
               }
             },
             "visible": true,
             "shape": "store",
-            "id": "7d5687e6-bde9-4cbc-bcc9-d0ee10f239dd",
             "zIndex": 12,
+            "id": "7d5687e6-bde9-4cbc-bcc9-d0ee10f239dd",
             "data": {
               "type": "tm.Store",
               "name": "Rules",
@@ -1965,8 +1905,8 @@
           },
           {
             "position": {
-              "x": 420,
-              "y": 565.46875
+              "x": 415,
+              "y": 505.46875
             },
             "size": {
               "width": 120,
@@ -1977,18 +1917,18 @@
                 "text": "History"
               },
               "topLine": {
-                "strokeWidth": 1,
+                "strokeWidth": 1.5,
                 "strokeDasharray": null
               },
               "bottomLine": {
-                "strokeWidth": 1,
+                "strokeWidth": 1.5,
                 "strokeDasharray": null
               }
             },
             "visible": true,
             "shape": "store",
-            "id": "0a4a4d9f-9305-4f2d-9221-f474376439b1",
             "zIndex": 13,
+            "id": "0a4a4d9f-9305-4f2d-9221-f474376439b1",
             "data": {
               "type": "tm.Store",
               "name": "History",
@@ -2005,7 +1945,7 @@
           },
           {
             "position": {
-              "x": 1595,
+              "x": 1775,
               "y": 240
             },
             "size": {
@@ -2018,7 +1958,7 @@
               },
               "body": {
                 "stroke": "#333333",
-                "strokeWidth": 1,
+                "strokeWidth": 1.5,
                 "strokeDasharray": null
               }
             },
@@ -2052,7 +1992,7 @@
               },
               "body": {
                 "stroke": "red",
-                "strokeWidth": 3,
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
@@ -2087,8 +2027,8 @@
           },
           {
             "position": {
-              "x": 960,
-              "y": 245.6875
+              "x": 1041.25,
+              "y": 176
             },
             "size": {
               "width": 100,
@@ -2100,7 +2040,7 @@
               },
               "body": {
                 "stroke": "#333333",
-                "strokeWidth": 1,
+                "strokeWidth": 1.5,
                 "strokeDasharray": null
               }
             },
@@ -2122,7 +2062,7 @@
           {
             "position": {
               "x": 175,
-              "y": 625.46875
+              "y": 555.46875
             },
             "size": {
               "width": 90,
@@ -2134,7 +2074,7 @@
               },
               "body": {
                 "stroke": "red",
-                "strokeWidth": 3,
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
