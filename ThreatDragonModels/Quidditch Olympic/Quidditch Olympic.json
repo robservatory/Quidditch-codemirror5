@@ -70,8 +70,8 @@
           },
           {
             "position": {
-              "x": 994.9999999999991,
-              "y": -284.5312500000003
+              "x": 980,
+              "y": -270
             },
             "size": {
               "width": 480,
@@ -81,8 +81,8 @@
             "id": "94a51ddb-1c56-41ab-ae1e-eae463c72d06",
             "zIndex": -1,
             "data": {
-              "type": "tm.BoundaryBox",
-              "name": "Trust Boundary",
+              "type": "tm.Boundary",
+              "name": "",
               "description": "",
               "isTrustBoundary": true,
               "hasOpenThreats": false
@@ -102,8 +102,8 @@
                 "text": "Casual Fan"
               },
               "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
@@ -118,14 +118,28 @@
               "outOfScope": false,
               "reasonOutOfScope": "",
               "providesAuthentication": false,
-              "hasOpenThreats": false,
-              "threats": []
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "id": "7add20c2-4dbd-4979-b466-c3938e5f0f89",
+                  "title": "New STRIDE threat",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Spoofing",
+                  "description": "Identify - pretending to be someone else",
+                  "mitigation": "Validation through MFA, biometrics",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 6,
+                  "score": "9"
+                }
+              ]
             }
           },
           {
             "position": {
               "x": 110,
-              "y": 216
+              "y": 210
             },
             "size": {
               "width": 112.5,
@@ -136,8 +150,8 @@
                 "text": "Superfan"
               },
               "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
@@ -152,8 +166,22 @@
               "outOfScope": false,
               "reasonOutOfScope": "",
               "providesAuthentication": false,
-              "hasOpenThreats": false,
-              "threats": []
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "id": "fcba563d-96a7-45bb-acbf-68e677ceda72",
+                  "title": "New STRIDE threat",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Repudiation",
+                  "description": "May have incentive to affect game outcomes - especially if wagering is involved",
+                  "mitigation": "",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 7,
+                  "score": ""
+                }
+              ]
             }
           },
           {
@@ -707,7 +735,7 @@
             },
             "vertices": [
               {
-                "x": 369.5,
+                "x": 460,
                 "y": 420
               },
               {
@@ -1202,8 +1230,8 @@
                 "y": 420
               },
               {
-                "x": 160,
-                "y": 520
+                "x": 80,
+                "y": 500
               }
             ]
           },
@@ -1243,56 +1271,6 @@
             "target": {
               "cell": "5a27fe48-7faa-4324-9ae3-99a00cb15609"
             }
-          },
-          {
-            "shape": "trust-broundary-curve",
-            "attrs": {
-              "line": {
-                "targetMarker": "",
-                "sourceMarker": ""
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Boundary",
-              "name": "",
-              "description": "",
-              "isTrustBoundary": true,
-              "hasOpenThreats": false
-            },
-            "id": "1344138e-7139-40ce-b0b1-3edaf6f42e03",
-            "labels": [
-              ""
-            ],
-            "source": {
-              "x": 1190,
-              "y": -240
-            },
-            "target": {
-              "x": 1200,
-              "y": -240
-            },
-            "vertices": [
-              {
-                "x": 1080,
-                "y": -210
-              },
-              {
-                "x": 1080,
-                "y": -160
-              },
-              {
-                "x": 1160,
-                "y": -40
-              },
-              {
-                "x": 1290,
-                "y": -110
-              }
-            ]
           },
           {
             "shape": "flow",
@@ -1409,66 +1387,6 @@
             ]
           },
           {
-            "shape": "trust-broundary-curve",
-            "attrs": {
-              "line": {
-                "targetMarker": "",
-                "sourceMarker": ""
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Boundary",
-              "name": "",
-              "description": "",
-              "isTrustBoundary": true,
-              "hasOpenThreats": false
-            },
-            "id": "bc238b9b-a675-49dc-8708-0f3e3f506c12",
-            "labels": [
-              {
-                "attrs": {
-                  "text": {
-                    "text": ""
-                  }
-                }
-              }
-            ],
-            "source": {
-              "x": 1350,
-              "y": 130
-            },
-            "target": {
-              "x": 1340,
-              "y": 130
-            },
-            "vertices": [
-              {
-                "x": 1100,
-                "y": 130
-              },
-              {
-                "x": 1080,
-                "y": 30
-              },
-              {
-                "x": 1220,
-                "y": 10
-              },
-              {
-                "x": 1280,
-                "y": 50
-              },
-              {
-                "x": 1280,
-                "y": 100
-              }
-            ]
-          },
-          {
             "shape": "flow",
             "attrs": {
               "line": {
@@ -1541,26 +1459,6 @@
             "target": {
               "x": 270,
               "y": 190
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead"
-              ],
-              "name": null
             }
           },
           {
@@ -1834,25 +1732,89 @@
               }
             ],
             "source": {
-              "x": 640,
-              "y": -280
+              "x": 770,
+              "y": -250
             },
             "target": {
-              "x": 900,
+              "x": 890,
               "y": 120
             },
             "vertices": [
               {
-                "x": 470,
-                "y": 0
+                "x": 450,
+                "y": -210
               },
               {
-                "x": 430,
+                "x": 420,
                 "y": 70
               },
               {
-                "x": 490,
+                "x": 480,
                 "y": 153
+              }
+            ]
+          },
+          {
+            "shape": "trust-broundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "id": "ff1df60e-c5a4-4d61-ba57-9f3ab5825cd3",
+            "source": {
+              "x": 1490,
+              "y": -120
+            },
+            "target": {
+              "x": 1490,
+              "y": -120
+            },
+            "vertices": [
+              {
+                "x": 1280,
+                "y": -60
+              },
+              {
+                "x": 1110,
+                "y": -80
+              },
+              {
+                "x": 1130,
+                "y": -190
+              }
+            ]
+          },
+          {
+            "shape": "trust-broundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "id": "7b3bf01f-c72e-4bd3-a7ce-ac898b52af35",
+            "source": {
+              "cell": "94a51ddb-1c56-41ab-ae1e-eae463c72d06"
+            },
+            "target": {
+              "cell": "94a51ddb-1c56-41ab-ae1e-eae463c72d06"
+            },
+            "vertices": [
+              {
+                "x": 1110,
+                "y": 20
               }
             ]
           },
@@ -1893,7 +1855,7 @@
           {
             "position": {
               "x": 160,
-              "y": 708.28125
+              "y": 625.4687499999998
             },
             "size": {
               "width": 120,
@@ -2089,7 +2051,7 @@
           {
             "position": {
               "x": 175,
-              "y": 555.46875
+              "y": 490.46875
             },
             "size": {
               "width": 90,
@@ -2207,6 +2169,6 @@
     ],
     "diagramTop": 1,
     "reviewer": "",
-    "threatTop": 5
+    "threatTop": 7
   }
 }
